@@ -52,8 +52,8 @@ note
        2. Apply Cost complexity pruning to obtain a sequence of $\alpha$,starting with $\alpha = 0$ and increasing it to find the best subtree to minimize *Tree score*,untill $|T|=1$.
 
        3. Use *K*-fold cross-validation to choose $\alpha$:  
-       (a) Repeat step 1 and 2 on all but the $k$th fold of the training data,$k = 1,\dots,K$  
-       (b) Evaluate RSS or accuracy on the $k$th testing data  
+       (a) Repeat step 1 and 2 on all but the $k$ th fold of the training data, $k = 1,\dots,K$  
+       (b) Evaluate RSS or accuracy on the $k$ th testing data  
        (c) Calculating every $\alpha$'s RSS or accuracy average,finally pick the final $\alpha$ has the lowest RSS or the highest accuracy.
 
        4. Use the final $\alpha$ to construct the tree.
