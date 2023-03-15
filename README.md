@@ -37,7 +37,7 @@ note
         * entropy
        $$D=-\sum_{k=1}^K\hat p_{mk}log(\hat p_{mk})$$
 
-     $\hat p_{mk}$ represents the proportion of observations in the $m$th region that are from the $k$the class.  
+     $\hat p_{mk}$ represents the proportion of observations in the $m$th region that are from the $k$ the class.  
      Gini Index and entropy are more sensitive than classification error rate.  
      **(Important)** You must check original RSS or Impurity before spliting the node.
 
@@ -45,7 +45,7 @@ note
    To avoid growing a very large tree(over-fitting)
      * Cost complexity pruning(Weakest link pruning)
    $$\sum_{m=1}^{|T|}\sum_{i:x_i\in R_m}(y_i-\hat{y}_{R_m})^2+\alpha |T|$$
-   *Tree score* = *RSS* + *Complexity penalty*,which $\alpha$ is determined by Cross-Validation,$|T|$ is the number of leaves.  
+   *Tree score* = *RSS* + *Complexity penalty*,which $\alpha$ is determined by Cross-Validation, $|T|$ is the number of leaves.  
    Step:
        1. Use recursive binary splitting to grow a large tree
 
