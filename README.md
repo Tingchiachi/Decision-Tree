@@ -24,9 +24,9 @@ note
 3. **Constructing a tree(recursive binary splitting)**
 
    * RSS  
-      predictor space:$R_1,R_2,...,R_J$
-      $$RSS=\sum_{j=1}^{J}\sum_{i\in R_j}(y_i-\hat{y}_{R_j})^2$$
-      where $\hat{y}_{R_j}$ is the mean(mode,median) for observations within the $j$th region.  
+      predictor space: $R_1,R_2,...,R_J$  
+      $$RSS=\sum_{j=1}^{J}\sum_{i\in R_j}(y_i-\hat{y}_{R_j})^2$$  
+      where $\hat{y}_{R_j}$ is the mean(mode,median) for observations within the $j$ th region.  
       $\Rightarrow$ Minimize the **RSS**
 
    * Impurity
