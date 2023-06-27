@@ -3,7 +3,7 @@
 # Decision tree
 
 </div>
-note  
+thesis note  
 
 1. **Motivation**
 
